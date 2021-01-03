@@ -76,7 +76,7 @@ exports.create_test = async (req, res) => {
     const start_date = moment(req.body.start_date).format('YYYY-MM-DD HH:mm:ss');
     const tokgen2 = new TokenGenerator(256, TokenGenerator.BASE62);
     const ass_id = tokgen2.generate();
-    const ass_link = "http://127.0.0.1:4200/assessment/" + ass_id
+    const ass_link = "https://smartassessment-tool.herokuapp.com/assessment/" + ass_id
     const creation_date = moment(Date.now()).format('YYYY-MM-DD HH:mm:ss');
     console.log('start date', start_date)
     const ass_data = {
