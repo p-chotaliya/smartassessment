@@ -3,7 +3,7 @@ const mariadb = require('mariadb/callback');
 const pool = mariadb.createPool({
     host: 'parth-database.c4147knyn44w.ap-south-1.rds.amazonaws.com',
     user: 'admin',
-    password: 'parth1611',
+    password: '',
     port: 3306,
     database: 'smartass',
     connectionLimit: 5
