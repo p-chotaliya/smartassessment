@@ -8,6 +8,26 @@ const { token } = require('morgan');
 //to get the assessment data without answer 
 exports.get_assessment_data = async (req, res) => {
     const ass_id = req.params.assessment_id
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
+    console.log("this is testing console")
+    console.log("this is testing console message");
     const ass_data = {
         ass_id: ass_id
     }
